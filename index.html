@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Logos1.png" alt="">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <strong>AMAN</strong> From <br>HAZARIBAGH.</h1>
+        </div>
+    </main>
+    <!-- ------------------------------------------------------About---------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="coloum-1">
+                    <img height="450px" src="amanalt.png" alt="">
+                </div>
+                <div class="coloum-2">
+                    <h2>About Me</h2>
+                    <p>I'm a full stack developer who loves building web applications from start to finish. 
+                        Skilled in front-end and back-end tools like React, Node.js, and databases, I focus on                       
+                        creating smooth and efficient user experiences. I enjoy solving problems and turning ideas 
+                        into real, working solutions that can make a difference. Always eager to learn and improve my skills.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desigining Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/Ios Apps </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>BCA From DSPMU</li>
+                                <li><span>2022</span><br>Inter From G.M +2 High School </li>
+                                <li><span>2020</span><br>Matric From Radha Govind Sec Public School </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Present (3 years)</span><br>TechWave Solutions <br>Position: Full Stack Developer</li>
+                                <li><span>2020 - 2021 (1 year 1 month)</span><br>CodeCrafters Inc. <br>Position: Web Developer</li>
+                                <li><span>2018 - 2020 (2 years)</span><br>Digital Innovators <br>Position: Front-End Web Developer</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------Services------------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="ri-code-s-slash-line"></i>
+                <h2>Web Design</h2>
+                <p>I designed over 50 responsive websites, enhancing user experience, brand consistency, and client satisfaction.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="ri-crop-line"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specialized in UI/UX design, creating intuitive, user-centered interfaces that improved engagement and client satisfaction.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="ri-app-store-line"></i>
+                <h2>App Design</h2>
+                <p>I designed mobile apps with seamless user experiences, focusing on functionality, aesthetics, and user satisfaction.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ---------------------------------Portfolio---------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="x.jpg" alt="apple">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>"An online shopping app offering easy browsing, secure payments, and fast delivery for a seamless experience."</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>       
+             </div>
+
+            <div class="work">
+                <img src="y.jpg" alt="mango">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>"A vibrant social media app where users connect, share stories, discover trends, and build communities."</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="z.jpg" alt="banana">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>"A music app that lets you stream, create playlists, and discover new songs effortlessly."</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a class="btn" href="#">See More</a>
+
+    </div>
+</div>
+<!-- -----------------------------------Contact---------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="ri-send-plane-fill"></i>amankumar99558333@gmail.com</p>
+                <p><i class="ri-phone-fill"></i>+919835086055</p>
+                <div class="social-icons">
+                    <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                    <a href=""><i class="ri-twitter-x-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <a class="btn btn2" href="AMAN.pdf" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn btn2" type="submit">submit</button>
+                </form>
+            <div>
+
+        </div>
+    </div>
+</div>
+<div class="copyright">
+<p>All rights reserved © 2024 Aman. Unauthorized use or duplication of content is prohibited.</p>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script> 
+</body>
+</html>
